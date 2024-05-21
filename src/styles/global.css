@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+body {
+  background-color: #111827;
+}
+
+.inputColor {
+  background-color: #1D2432;
+}
