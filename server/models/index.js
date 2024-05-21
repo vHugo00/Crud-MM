@@ -1,8 +1,9 @@
 const { Sequelize } = require('sequelize');
-const sequelize = new Sequelize('database', 'username', 'password', {
+const sequelize = new Sequelize('formdb', 'root', '', {
   host: 'localhost',
   dialect: 'mysql',
 });
+
 
 const db = {};
 db.Sequelize = Sequelize;
